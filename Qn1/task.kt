@@ -5,9 +5,9 @@
 data class Task(
     val id: Int,
     var title: String,
-    var description: String? = null,
+    var description: String,
     var priority: Priority = Priority.MEDIUM,
-    var deadline: Date? = null,
+    var deadline: Date,
     var isRecurring: Boolean = false,
     var recurrenceIntervalMillis: Long? = null // for recurring tasks
 )

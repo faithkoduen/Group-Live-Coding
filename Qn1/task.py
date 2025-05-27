@@ -51,7 +51,7 @@ class TaskManager:
     def save_tasks(self, filename="tasks.json"):
         task_data = [task.__dict__ for task in self.tasks]
         with open(filename, "w") as f:
-            json.dump(task_data, f, default=str)
+            
 
     def load_tasks(self, filename="tasks.json"):
         try:
