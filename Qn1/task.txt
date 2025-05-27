@@ -1,0 +1,25 @@
+|Qn1DEvelop a task scheduling application that helps users organise their daily activities
+//users should be able to add,edit and delete tasks,set priorities and deadlines and
+//receive reminders for upcoming tasks.Design the system to handle recurring tasks.
+
+
+//input
+//Array of tasks
+
+//create a function to add task
+//iterate through the array,if the task to be done does not exist in the array,add the task
+//create a function to edit task
+//iterate through the array ,rename the task that is needed to be renamed
+//create a function to delete task
+//iterate through the array ,if the task that is done is in the array,then we delete iterate
+//create a function to set priorities and deadlines 
+//iterate through the array and rearrange the task according to the priority,if a task is 
+//to be done first,it will be highly prioritised hence being the first in the array
+//create a function tosend reminders and notify the upcoming task according to the task 
+//priority
+
+
+//output
+//array of tasks
+//priorities and deadlines of every task
+//notification
